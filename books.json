@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "Responsive Design with Bootstrap",
+        "author": "Dzenis Madzovic",
+        "description": "Responsive design is a key aspect of modern web development, as users access websites on a variety of devices with different screen sizes. Bootstrap is a popular front-end framework that makes it easier to create responsive and mobile-first websites. The reason why responsive design is so important in modern frontend design is the huge variety of devices on which our applications need to be compatible with. Every device has its own dimensions and screen size and the job of a good front end developer is to make sure that their application looks good and similar on every device imaginable. This is very relevant to web designs in particular due to every device imaginable having access to a web browser. To achieve responsive design, designers need to use techniques like using relative size units (viewport, em's and rem's in css), using screen breakpoints, using semantic and modular designs and so on. Since modern responsive design can be a tedious process to implement correctly there are a lot of modern tools that help with this process. One of the more popular tools for web developers is Bootstrap. Bootstrap is a Cascading Style Sheet framework that consists of large amount of pre build components and layouts that automatically provide responsive design to the user interface. Bootstrap is a very popular tool for front end developers and is used by a lot of companies and websites. It is also a very popular tool for web developers to use in their job interviews. The benefits of using Bootstrap are that it is very easy to use and provides a lot of pre build components that can be used to quickly build a responsive website. The downsides of using Bootstrap are that it is a very large framework and can slow down the loading time of the website. It also requires a lot of knowledge of CSS and HTML to be able to use it effectively.",
+        "category": "UX",
+        "price": 35.99
+    },
+    {
+        "id": 2,
+        "title": "HTML - An Introduction",
+        "author": "Dzenis Madzovic",
+        "description": "HTML is the markup language used to create web pages. It is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document. There are two types of html tags: block level and inline tags. A block level tag will always start on a new line and take up the full width available. Inline tags only take up as much width as necessary. An example of a block level tag is the '{di​v}' tag. An example of an inline tag is the '{span}' tag. A standard html page begins with a '{html}' tag and ends with a '{/html}' tag. Within it there are usually two tags, '{head}' and '{body}'. The '{head}' tag of a html is not visible by the user and usually contains metadata of the web page, '{link}' tags which usually link to external cdns or stylesheets, '{script}' tags which contain the javascript of the page, '{title}' which contains the title metadata... Within the body is everything visible by the user, such as '{h1}' tags for headings, '{p}' tags for paragraphs, '{img}' tags for images and so on. Every html tag also contains attributes. Attributes are used to provide additional information about an element. Attributes always appear in the start tag and their values are placed in double quotes. An example of an attribute is the 'src' attribute which is used to specify the source of an image. Some tags are special and have interactivity attached to them, such as '{button}' tags or '{a}' tags, which can have events attached to them that happen once the element has been interacted with. Without html it's hard to imagine how modern websites would look like and in modern days even some native apps use html abstraction to display their content.",
+        "category": "HTML",
+        "price": 24.99
+    },
+    {
+        "id": 3,
+        "title": "CSS - An Introduction",
+        "author": "Dzenis Madzovic",
+        "description": "Cascading Style Sheet, CSS, is the styling language used to add visual design to web pages. When being displayed, basic HTML web pages don't have any styling or design attached to them, most of the styling we see in certain html elements like buttons comes from the browsers native stylesheet applied to the html. To make html pages look a certain way cascading style sheets are used. CSS is a rule based language, used to give web pages and html elements specific design. When writing a stylesheet we can seperate css code in two parts, the first part is the selector, it represents the tag, class or id of an element we're trying to apply the style to. After the selector there is a set of curly braces and everything we write whitin these brace will be the style applied to the seleceted. CSS can change the width, height, size, color and shape of html elements. Modern CSS also provides basic keyframe animations, fade ins, shadows, gradients as well as pseudo-variables (using the var() keyword). For units of measurement, CSS has static measurements such as pixels and dynamic/responsive measurement units such as rems/vhs... A difficult thing about CSS is that different browsers support different CSS features and some stylesheets won't transfer from Chromium based browsers to Firefox and Brave easily. This is why it's important to use a CSS preprocessor such as SASS or LESS. CSS preprocessors are a tool that allows you to use features that aren't supported by the browser yet, such as variables, mixins, nesting, inheritance and other more advanced features. CSS preprocessors also allow you to write more readable and maintainable code. On it's own, CSS works based on a box model. Every html element is a box and every box has a width, height, padding, margin and border. The width and height of an element can be set using the 'width' and 'height' properties. The padding of an element can be set using the 'padding' property. The margin of an element can be set using the 'margin' property. The border of an element can be set using the 'border' property. The box model is very important when it comes to designing responsive and good looking websites.",
+        "category": "CSS",
+        "price": 29.99
+    },
+    {
+        "id": 4,
+        "title": "JavaScript - An Introduction",
+        "author": "Dzenis Madzovic",
+        "description": "JavaScript is a dynamically typed programming language primarily used for web development. It was famously created by Brendan Eich in just 10 days. It's syntax is highly based Java due to it being a heavily popular programming language at the time. Javascript has a curly based syntax, it supports object oriented, functional and procedural programming patterns but doesn't enforce a single programming paradigm. Initially, JavaScript used to only run within the browser itself, but now JavaScript can run on multiple environments. Soon, a desire for using JavaScript as a back-end language arose, which brought to existence tools like Node and Deno, which are JavaScript runtimes, built to run JavaScript server side. Modern JavaScript is the seventh most language in the world. It's an essential language for modern web development. JavaScript doesn't enforce any programming paradigm, yet it supports classes and object oriented patterns and functions are first class citizens like in functional programming languages. JavaScript on it's own is a fairly simple language, it has three different primitive data types: Numbers, Strings and Booleans and two trivial datatypes in Null and Undefined. It also has two complex data types: Arrays and Objects. Arrays are a list of values, they can be accessed using the index of the value. Objects are a list of key value pairs, they can be accessed using the key of the value. JavaScript also has a few built in functions that are expected from a programming language, such as Math, Date, MapSets... To interact with the browser itself, JavaScript has a few built in objects such as the Window object, the Document object, the Navigator object, the Location object, the WebSocket object, the Fetch API object... The Window object is the global object in the browser, it represents the browser window. The Document object represents the HTML document. The Navigator object represents the browser itself. The Location object represents the URL of the page. The WebSocket object represents a web socket connection. The Fetch API object represents a request to a server. A very important part of JavaScript are it's libraries, which are widely used in other web frameworks as well. Notable JavaScript libraries are React, Angular, Vue. Some noteable full stack frameworks for JavaScript are Next and Nuxt. There are also entire languages built to compile to JavaScript like Elm. JavaScript is a very powerful language, it's used in many different environments and it's used in many different frameworks. It's a very important language for modern web development.",
+        "category": "JavaScript",
+        "price": 39.99
+    },
+    {
+        "id": 5,
+        "title": "Learning Responsive Web Design",
+        "author": "Marcotte, Ethan",
+        "description": "This book covers the basics of responsive design, including fluid grids, flexible images, and media queries. It also provides practical advice for designing responsive websites that work across a range of devices.",
+        "category": "UX",
+        "price": 45.99
+    },
+    {
+        "id": 6,
+        "title": "HTML and CSS: Design and Build Websites",
+        "author": "Jon Duckett",
+        "description": "This book is a comprehensive introduction to both HTML and CSS, covering the basics of syntax and structure, as well as more advanced topics such as layout and typography. It includes plenty of practical examples and exercises to help readers build their skills.",
+        "category": "HTML",
+        "price": 29.99
+    },
+    {
+        "id": 7,
+        "title": "CSS Mastery Advanced Web",
+        "author": "Simon Collison",
+        "description": "This book is aimed at intermediate to advanced CSS developers and provides a comprehensive guide to advanced CSS techniques, including layout, typography, and cross-browser compatibility. It includes plenty of practical examples and code snippets to help readers apply the concepts to their own projects.",
+        "category": "CSS",
+        "price": 49.99
+    },
+    {
+        "id": 8,
+        "title": "JavaScript and jQuery: Interactive Front-End",
+        "author": "Jon Duckett",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "JavaScript",
+        "price": 37.99
+    },
+    {
+        "id": 9,
+        "title": "Don't Make Me Think: A Common Sense",
+        "author": "Steve Krug",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "UX",
+        "price": 25.99
+    },
+    {
+        "id": 10,
+        "title": "HTML5 and CSS3 All-in-One For Dummies",
+        "author": "Andy Harris",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "HTML",
+        "price": 39.99
+    },
+    {
+        "id": 11,
+        "title": "CSS: The Definitive Guide",
+        "author": "Eric Meyer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "CSS",
+        "price": 42.99
+    },
+    {
+        "id": 12,
+        "title": "Eloquent JavaScript: A Modern Introduction",
+        "author": "Marijn Haverbeke",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "JavaScript",
+        "price": 48.99
+    },
+    {
+        "id": 13,
+        "title": "The UX Book: Process and Guidelines",
+        "author": "Rex Hartson",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "UX",
+        "price": 54.99
+    },
+    {
+        "id": 14,
+        "title": "Learning Web Design",
+        "author": "Jennifer Niederst",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "HTML",
+        "price": 31.99
+    },
+    {
+        "id": 15,
+        "title": "CSS Secrets: Better Solutions",
+        "author": "Lea Verou",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "CSS",
+        "price": 46.99
+    },
+    {
+        "id": 16,
+        "title": "JavaScript: The Good Parts",
+        "author": "Douglas Crockford",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "JavaScript",
+        "price": 29.99
+    },
+    {
+        "id": 17,
+        "title": "Interaction Design: Creating Apps",
+        "author": "Stephen Anderson",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "UX",
+        "price": 36.99
+    },
+    {
+        "id": 18,
+        "title": "HTML and CSS: Design and Build Websites",
+        "author": "Jon Duckett",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "HTML",
+        "price": 19.99
+    },
+    {
+        "id": 19,
+        "title": "CSS Grid Layout: The Essential Guide",
+        "author": "Rachel Andrew",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "CSS",
+        "price": 32.99
+    },
+    {
+        "id": 20,
+        "title": "JavaScript: The Definitive Guide",
+        "author": "David Flanagan",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "category": "JavaScript",
+        "price": 54.99
+    }
+]
