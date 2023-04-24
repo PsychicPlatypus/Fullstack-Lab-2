@@ -20,3 +20,4 @@ MONGO_URI={mongo_uri}
 ## Comments
 
 - The render-cli for macOs has a broken brew formula.
+- See the full site in action: <https://fullstack-lab-2-eerk.onrender.com/#>
