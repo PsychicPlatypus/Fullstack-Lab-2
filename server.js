@@ -4,7 +4,7 @@ import favicon from "serve-favicon";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import { config } from "dotenv";
-import BOOKS from "./books.json" assert { type: "json" };
+import { getAllBooks } from "./database.js";
 
 config();
 const app = express();
@@ -27,8 +27,8 @@ app.get("/", function (_req, res) {
     res.sendFile(join(__dirname, "index.html"));
 });
 
-app.get("/book", function (_req, res) {
-    res.json(BOOKS);
+app.get("/book", async function (_req, res) {
+    res.json(await getAllBooks());
 });
 
 app.listen(process.env.PORT, function () {
